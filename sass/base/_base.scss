@@ -1,0 +1,17 @@
+/* reset props for all browsers */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; /*base pixel size for rem % of browser default 16px */
+}
+
+body {
+    padding: 3rem;
+    box-sizing: border-box;
+}
